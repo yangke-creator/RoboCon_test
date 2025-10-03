@@ -1,0 +1,2 @@
+plumbing_pub_sub
+-DCATKIN_DEVEL_PREFIX=/home/yangke/robocon2025_ws/devel -DCMAKE_INSTALL_PREFIX=/home/yangke/robocon2025_ws/install -G Unix Makefiles
