@@ -98,6 +98,7 @@ cv.circle(img, path[-1], 8, (255, 0, 0), -1)        # 绘制终点
 
 cv.imshow('img_org', img_org)
 cv.imshow('img', img)
+cv.imwrite('img2.png', img)
 # cv.imshow('mask', mask)
 # cv.imshow('res', res)
 cv.waitKey(0)

@@ -35,6 +35,7 @@ if len(contours) != 0:
     cv.drawContours(img, [max_contour], -1, (0, 0, 255), 3)
 cv.imshow('img_org', img_org)
 cv.imshow('img', img)
+cv.imwrite('img.png', img)
 # cv.imshow('mask', mask)
 # cv.imshow('res', res)
 cv.waitKey(0)
