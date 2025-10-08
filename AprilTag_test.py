@@ -4,8 +4,8 @@ import cv2 as cv
 # Apriltag家族命名：tag36h11, tag25h9
 
 # img = cv.imread("bac8ed8abb1f4efd83c3dd4e9aa57b7c.png", 0)
-detector = apriltags.Detector(families='tag36h11') # 指定Apriltag家族为tag36h11
-detector2 = apriltags.Detector(families='tag25h9') # 指定Apriltag家族为tag25h9
+detector = apriltags.Detector(families='tag36h11') # 指定Apriltag家族为 tag36h11
+detector2 = apriltags.Detector(families='tag25h9') # 指定Apriltag家族为 tag25h9
 cap = cv.VideoCapture(0)
 while True:
     ret, img = cap.read()
